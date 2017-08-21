@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="tr_username" value="antony.r@4demo.com"/>
+  <parameter name="tr_url" value="https://login.salesforce.com"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="tr_password" value="avankia1"/>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.tr.candidatesTest.addResumeTest">
+        <methods>
+          <include name="test"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.tr.candidatesTest.addResumeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
